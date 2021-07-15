@@ -5,7 +5,7 @@
 //! The example below shows how implement custom display formatting for an external type that does
 //! not implement [Display].
 //!
-//! ```run
+//! ```
 //! use std::fmt;
 //!
 //! use fmt_ext::{display::*, DisplayExt};
@@ -29,10 +29,8 @@
 //! impl AttachDisplay<ExternCrateTypeDisplay> for ExternCrateType {}
 //!
 //! // Look! We have just call `display` method on the target type...
-//! fn main() {
-//!     let foo = ExternCrateType(42);
-//!     println!("{}", foo.display());
-//! }
+//! let foo = ExternCrateType(42);
+//! println!("{}", foo.display());
 //! ```
 //!
 //! [Display]: core::fmt::Display
