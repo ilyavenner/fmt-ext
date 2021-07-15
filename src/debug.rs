@@ -5,7 +5,7 @@
 //! The example below shows how implement custom debug formatting for slices that additionally
 //! print their length.
 //!
-//! ```run
+//! ```
 //! use std::{fmt, marker::PhantomData};
 //!
 //! use fmt_ext::{debug::*, DebugExt};
@@ -29,13 +29,11 @@
 //! impl<T> AttachDebug<SliceWithLenDebug<T>> for [T] {}
 //!
 //! // Look! We have just call `debug` method on target type...
-//! fn main() { //!
-//!     let numbers = [0, 1, 2, 3];
-//!     println!("{:?}", numbers.debug());
+//! let numbers = [0, 1, 2, 3];
+//! println!("{:?}", numbers.debug());
 //!
-//!    let strings = vec!["I", "am", "a", "custom", "debug"];
-//!    println!("{:?}", strings.debug());
-//! }
+//! let strings = vec!["I", "am", "a", "custom", "debug"];
+//! println!("{:?}", strings.debug());
 //! ```
 //!
 //! [Debug]: core::fmt::Debug

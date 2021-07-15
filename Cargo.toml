@@ -1,6 +1,6 @@
 [package]
 name = "fmt_ext"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 
 authors = ["Ilya Venner ilyavenner@gmail.com"]
@@ -12,7 +12,7 @@ readme = "README.md"
 repository = "https://github.com/ilyavenner/fmt_ext"
 keywords = ["fmt", "formatting", "extenstion"]
 categories = ["development-tools", "value-formatting"]
-license-file = "LICENSE"
+license = "MIT"
 
 [badges.maintenance]
 status = "experimental"
