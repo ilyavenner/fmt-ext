@@ -1,7 +1,7 @@
 ## `fmt_ext`
 
-![Crates.io](https://img.shields.io/crates/v/fmt_ext)
-![docs.rs](https://img.shields.io/docsrs/fmt_ext)
+[![Crates.io](https://img.shields.io/crates/v/fmt_ext)](https://crates.io/crates/fmt_ext)
+[![docs.rs](https://img.shields.io/docsrs/fmt_ext)](https://docs.rs/fmt_ext)
 
 A simple interface for extending external types with custom implementations of [Debug] and
 [Display] traits.
@@ -50,7 +50,7 @@ All examples are in [this directory].
 
 ### License
 
-`fmt_ext` is distributed under the terms of both the MIT license.
+`fmt_ext` is distributed under the terms of the MIT license.
 
 [Debug]: https://doc.rust-lang.org/stable/std/fmt/trait.Display.html
 
